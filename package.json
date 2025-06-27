@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Solid implementation of Sierpinski Triangle",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "deploy": "npm run build && wrangler deploy"
   },
   "keywords": [
     "solid",
@@ -24,6 +25,7 @@
     "babel-preset-solid": "^1.1.0",
     "rollup": "2.52.3",
     "rollup-plugin-terser": "^7.0.2",
-    "solid-js": "^1.1.0"
+    "solid-js": "^1.1.0",
+    "wrangler": "^4.22.0"
   }
 }

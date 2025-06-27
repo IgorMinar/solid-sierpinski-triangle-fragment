@@ -9,7 +9,7 @@ export default {
 	output: {
 		// sourcemap: true,
 		format: 'iife',
-		file: 'dist/main.js',
+		file: 'dist/__wf/dev.web-fragments.demos.fragments.solid-skerpinski-triangle/main.js',
 	},
 	plugins: [
 		babel({

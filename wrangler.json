@@ -1,0 +1,15 @@
+{
+  "account_id": "70dde660886a968f28d1f701048a0898",
+  "name": "solid-sierpinski-triangle-fragment",
+  "compatibility_date": "2025-03-13",
+  "assets": {
+    "directory": "./dist/",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    {
+      "pattern": "solid-sierpinski-triangle.fragments.demos.web-fragments.dev",
+      "custom_domain": true
+    }
+  ]
+}
